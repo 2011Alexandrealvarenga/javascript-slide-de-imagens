@@ -34,3 +34,9 @@ function updateMargin() {
 }
 
 setInterval(goNext, 5000);
+
+const botao = document.querySelector('botao');
+
+botao.addEventListener('click', ()=>{
+    alert('ola');
+})
