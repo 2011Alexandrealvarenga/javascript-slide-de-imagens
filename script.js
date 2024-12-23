@@ -37,6 +37,6 @@ setInterval(goNext, 5000);
 
 const botao = document.querySelector('.botao');
 
-botao.addEventListener('click', ()=>{
+botao.addEventListener('click', function(){
     alert('ola');
 })
